@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header container-fluid bg-black d-flex justify-content-center align-items-center">
+        <h1 class="logo">LOGO</h1>
+    </header>
+    <main class="main container-fluid bg-black d-flex justify-content-around align-items-center">
+        <section class="section-textos">
+            <h1 class="titulo mb-3">CUPOM DE DESCONTO</h1>
+            <h3 class="subtitulo mb-3">Vamos te presentear com um CUPOM de 30% ❤️</h3>
+            <p class="paragrafo">Cadastre-se no formulário para receber o seu desconto.</p>
+        </section>
+        <section class="section-formulario mb-5">
+            <h2 class="form-titulo text-white text-center">Cadastre-se e receba seu desconto</h2>
+            <form class="form was-validated">
+                <label class="form-label text-white mt-3 mb-3" for="name">Nome:</label>
+                <input id="name" type="text" class="form-control" placeholder="Digite o seu nome" required>
+
+                <label class="form-label text-white mt-3 mb-3" for="email">E-mail:</label>
+                <input id="email" type="email" class="form-control" placeholder="Digite o seu e-mail" required>
+
+               <div class="button d-flex justify-content-center">
+                <input type="submit" value="QUERO MEU CUPOM" class="btn btn-danger mt-4">
+               </div>
+
+            </form>
+        </section>
+    </main>
+    <footer class="container-fluid bg-black text-white d-flex justify-content-center align-items-center p-2 rodape">
+        <div class="autor">
+            <p class="copyright mb-2">
+                Desenvolvido por
+                <a class="links" href="https://ingridssilveira.github.io/IngridSouza/">Ingrid Souza 🔥</a>
+            </p>
+        </div>
+            <div class="rede-social">
+                <a class="icons" target="_blank" href="https://github.com/IngridsSilveira"><img
+                        src="assets/imgs/github-logo.png" alt="icone do GitHub" /></a>
+                <a class="icons" target="_blank" href="https://www.linkedin.com/in/ingrid-de-souza-silveira/"><img
+                        src="assets/imgs/linkedin-logo.png" alt="icone do Linkedin" /></a>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+</html>
