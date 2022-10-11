@@ -1,24 +1,28 @@
-# Landing Page 03
+<h1>Landing Page 03</h1>
 
-Está é uma landing page que tem como principal função capturar as informações dos usuários e em seguida enviar um cupom com desconto.
+<p>Está é uma landing page que tem como principal função capturar as informações dos usuários e em seguida enviar um cupom com desconto.</p>
 
-Foi utilizado as linguagens HTML, CSS e o framework Bootstrap na criação do website.
+<p>Foi utilizado as linguagens HTML, CSS e o framework Bootstrap na criação do website.</p>
 
-## Table of contents
+## <h2>Table of contents</h2>
 
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Author](#author)
 
-### Screenshot
+### <h2>Screenshot</h2>
+
+![](assets/imgs/lp03.jpg)
+
+<h2>Desktop view:</h2>
 
 ![](assets/imgs/lp03-desktop.png)
 
-### Links
+### <h2>Links</h2>
 
 - Solution URL: [Solution here](https://ingridssilveira.github.io/landingPage03/)
 
-## Author
+## <h2>Author</h2>
 
 - Website - [Ingrid Souza](https://ingridssilveira.github.io/IngridSouza)
 - GitHub - [@IngridsSilveira](https://github.com/IngridsSilveira)
